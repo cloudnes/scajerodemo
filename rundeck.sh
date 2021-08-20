@@ -18,4 +18,6 @@ python3 get-pip.py --user
 python3 -m pip install --user ansible
 sudo dnf -y install git
 
-ansible-playbook 
+ansible --version
+
+echo "Done"
