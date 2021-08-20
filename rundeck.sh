@@ -14,8 +14,8 @@ chmod 600 ~/fuse_connection.cfg
 mkdir /home/ctc-admin/rundeck #create directory /home/ctc-admin/rundeck
 
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py --user
-python -m pip install --user ansible
+python3 get-pip.py --user
+python3 -m pip install --user ansible
 sudo dnf -y install git
 
 ansible-playbook 
